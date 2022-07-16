@@ -15,6 +15,10 @@ conda env create -f p1.yml
 and activate it. -->
 
 ### Install
+```conda
+conda env create -f p1.yml
+```
+
 ```bash
 sh all_build.sh
 ```
