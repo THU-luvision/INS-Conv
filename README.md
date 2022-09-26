@@ -24,3 +24,8 @@ sh all_build.sh
 ```
 
 ### Demo
+For training, you could train an arbitary model using the original sparseconvnet.
+
+For incremental inference, demo.py gives an example of the INS-Conv library.
+
+The whole online segmentation system is complicated and large. If you are interested, contact liu-ly20@mails.tsinghua.edu.cn for more details.
