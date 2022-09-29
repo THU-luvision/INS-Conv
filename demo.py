@@ -31,8 +31,8 @@ features_1 = torch.rand((1000, 3)).cuda()                      # features of inc
 
 
 # incremental update of the network, use inccrement=True
-# just need to input the points and features, the input residuals will be computed automaticlly
-# the output is the results of new points in frame 1
+# just need to input the incremental points and their features, the input residuals will be computed automaticlly
+# the output is the results of incremental points of frame 1
 output_1 = Model([points_1, features_1], increment=True)    
 
 '''
