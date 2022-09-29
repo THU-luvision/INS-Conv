@@ -27,7 +27,7 @@ output_0 = Model([points_0, features_0], increment=False)
 
 
 points_1 = torch.randint(100, 150, size=(1000, 3)).cuda()     # xyz of incremental points of frame 1
-features_1 = torch.rand((10000, 3)).cuda()                      # features of incremental points of frame 1
+features_1 = torch.rand((1000, 3)).cuda()                      # features of incremental points of frame 1
 
 
 # incremental update of the network, use inccrement=True
